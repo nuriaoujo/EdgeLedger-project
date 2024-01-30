@@ -2,14 +2,14 @@
 
 * {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
     background: #fff;
     color: #333;
+    font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
 }
 
@@ -33,4 +33,37 @@ p {
 
 img {
     width: 100%;
+}
+
+/* Navbar */
+.navbar {
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    opacity: 0.8;
+    padding: 0 30px;
+    position: fixed;
+    top:0px;
+    width: 100%;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+.navbar a:hover {
+    border-bottom: #28a745 2px solid;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar .logo {
+    font-weight: 400;
 }
