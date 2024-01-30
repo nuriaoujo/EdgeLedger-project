@@ -144,3 +144,16 @@
     max-width: 25%;
     padding: 0 4px;
 }
+
+/* Scroll */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+::-webkit-scrollbar-thumb {
+background: #28a745;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #259b41;
+}
