@@ -127,16 +127,3 @@ img {
     border-radius: 50%;
     margin-bottom: 15px;
 }
-
-/* Flex items */
-.flex-items {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-.flex-items > div {
-    padding: 20px;
-}
