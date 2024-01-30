@@ -1,4 +1,4 @@
-/* Texy colors */
+/* Text colors */
 
 .text-primary {
     color: #28a745;
@@ -7,4 +7,39 @@
 
 .text-secondary {
     color: #0284d0;
+}
+
+.btn {
+    background-color: #28a745;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+/* Button */
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #0284d0 ;
+    color: #fff ;
+}
+
+.btn-dark {
+    background-color: #333;
+    color: #fff;
+}
+
+.btn-light {
+    background-color: #f4f4f4;
+    color: #333;
 }
