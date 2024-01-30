@@ -131,3 +131,11 @@ img {
 .cases img:hover {
     opacity: 0.7;
 }
+
+.img_style {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    object-position: 55%;
+    border-radius: 30%;
+}
