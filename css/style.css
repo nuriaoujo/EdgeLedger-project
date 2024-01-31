@@ -138,11 +138,11 @@ img {
 }
 
 .img_style {
-    width: 400px;
+    border-radius: 30%;
     height: 400px;
     object-fit: cover;
     object-position: 55%;
-    border-radius: 30%;
+    width: 400px;
 }
 
 /* Callback form */
@@ -161,10 +161,10 @@ img {
 }
 
 .callback-form input {
-    width: 100%;
-    padding: 4px;
-    height: 40px;
     border: #f5f5f5 1px solid;
+    height: 40px;
+    padding: 4px;
+    width: 100%;
 }
 
 .callback-form input:focus {
@@ -172,8 +172,31 @@ img {
 }
 
 .callback-form .btn {
-    padding: 12px 0;
     margin-top: 20px;
+    padding: 12px 0;
+}
+
+/* Post */
+.post {
+    padding: 50px 30px;
+}
+
+.post h2 {
+    border-bottom: #ccc solid 1px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.post .meta {
+    margin-bottom: 30px;
+}
+
+.post img {
+    border-radius: 17%;
+    display: block;
+    margin: 0 auto 30px;
+    width: 300px;
 }
 
 /* Footer */
